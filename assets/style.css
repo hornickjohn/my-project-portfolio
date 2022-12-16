@@ -3,11 +3,83 @@ body {
     padding:0;
 }
 
-header {
+body>header {
     position: absolute;
     width:100%;
     height:100px;
+    top:0;
     background-color: #B000B0;
     display:flex;
     align-items:center;
+}
+
+header img {
+    max-height:100px;
+}
+
+header ul {
+    list-style:none;
+    text-align:right;
+}
+
+header li {
+    display:inline;
+}
+
+h1 {
+    padding: 20px;
+}
+
+main {
+    margin-top:100px;
+}
+
+main section {
+    margin:0 30px;
+}
+
+#projects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex:0 0 200px;
+    margin:30px;
+}
+
+.card span {
+    font-size: 70%;
+}
+
+.card figure {
+    width:100%;
+    margin:0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.card img {
+    width:100%;
+    min-width:350px;
+    max-width: 700px;
+}
+
+#projects .card:first-of-type {
+    width:100%;
+    flex:none;
+    margin:0;
+}
+
+.card figurecaption {
+    display:block;
+    position:relative;
+    bottom:50px;
+    height:50px;
+    width:150px;
+    font-size:20px;
+    background-color:blueviolet;
 }
