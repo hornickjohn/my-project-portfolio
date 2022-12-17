@@ -16,9 +16,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="hovereffect"><a href="#about">About</a></li>
+                <li class="hovereffect"><a href="#projects">Projects</a></li>
+                <li class="hovereffect"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +26,12 @@
         <section id="about">
             <h2>About Me</h2>
             <div>
-
+                <p>
+                    I have been programming for about as long as I can remember! From silly little .NET C# applications in youth (when the framework was new!), using buttons to change text in labels, all the way to taking courses in college and dabbling in new languages and platforms. Most recently, I dove into a web development bootcamp to consolidate, modernize, and most importantly improve my knowledge and practices.
+                </p>
+                <p>
+                    My aspiration is to leverage this lifelong familiarity with technical thinking and affinity for soaking up new information and skills to make an impact in the world of development. I live for the systematic breaking down - and creative solving - of problems. I would definitely update this section to be fuller and less awkwardly worded before it were to ever see the professional world. :)
+                </p>
             </div>
         </section>
         <section id="projects">
@@ -34,7 +39,7 @@
             <div>
                 <div class="card">
                     <a href="https://www.msn.com/" target="_blank">
-                        <figure>
+                        <figure class="hovereffect">
                             <img src="./assets/images/Project1.png" alt="image relating to first project" />
                             <figurecaption>Project 1 Title<br><span>Techs used.</span></figurecaption>
                         </figure>
@@ -42,7 +47,7 @@
                 </div>
                 <div class="card">
                     <a href="https://www.reddit.com/" target="_blank">
-                        <figure>
+                        <figure class="hovereffect">
                             <img src="./assets/images/Project2.png" alt="image relating to second project" />
                             <figurecaption>Project 2 Title<br><span>Techs used.</span></figurecaption>
                         </figure>
@@ -50,7 +55,7 @@
                 </div>
                 <div class="card">
                     <a href="https://www.reddit.com/r/dreamtheater" target="_blank">
-                        <figure>
+                        <figure class="hovereffect">
                             <img src="./assets/images/Project3.png" alt="image relating to third project" />
                             <figurecaption>Project 3 Title<br><span>Techs used.</span></figurecaption>
                         </figure>
@@ -58,7 +63,7 @@
                 </div>
                 <div class="card">
                     <a href="https://www.reddit.com/r/symphonyx" target="_blank">
-                        <figure>
+                        <figure class="hovereffect">
                             <img src="./assets/images/Project1.png" alt="image relating to fourth project" />
                             <figurecaption>Project 4 Title<br><span>Techs used.</span></figurecaption>
                         </figure>
@@ -68,6 +73,24 @@
         </section>
         <section id="contact">
             <h2>Reach Me</h2>
+            <div>
+                <form>
+                    <label for="name-input">Name:</label><input type="text" id="name-input" /><br>
+                    <label for="subject-input">Subject:</label><input type="text" id="subject-input" /><br>
+                    <label for="message-input">Message:</label><textarea id="message-input" placeholder="Type whatever you like here, not like you'll be able to send it anyway until we have some JS."></textarea>
+                    <input type="button" value="Send" />
+                </form>
+                <div>
+                    <h3>
+                        Contact Info:
+                    </h3>
+                    <ul>
+                        <li>&phone; (479) 257-0279</li>
+                        <li>✉ jhornick@live.com</li>
+                        <li>🖥️ <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li> <!--would be an actual profile link, of course-->
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
